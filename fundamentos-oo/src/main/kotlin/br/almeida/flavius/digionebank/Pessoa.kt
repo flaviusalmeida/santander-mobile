@@ -1,8 +1,8 @@
 package br.almeida.flavius.digionebank
 
-open class Pessoa(
-    var nome: String,
-    var cpf: String,
+abstract class Pessoa(
+    val nome: String,
+    val cpf: String,
 ) {
     fun pessoaInfo() = "$nome e $cpf"
 }
